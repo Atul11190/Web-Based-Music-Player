@@ -1,8 +1,4 @@
-# Web-Based-Music-Player
 # 🎵 Premium Music Player  
-
-![Music Player Screenshot]![Screenshot 2025-05-05 080900](https://github.com/user-attachments/assets/f68ca81b-3e90-4a93-a1d1-285af333d6a5)
-) *(Replace with actual screenshot)*  
 
 A minimalist, dark-mode music player with file upload support. Built with HTML5, CSS3, and vanilla JavaScript.
 
@@ -23,6 +19,9 @@ A minimalist, dark-mode music player with file upload support. Built with HTML5,
    ```bash
    git clone https://github.com/your-username/premium-music-player.git
    Basic Controls:
+
+ ![Music Player Screenshot]![Screenshot 2025-05-05 080900](https://github.com/user-attachments/assets/f68ca81b-3e90-4a93-a1d1-285af333d6a5)
+
 - Click ▶|❚❚ to play/pause
 - Use ⏪/⏩ for previous/next track
 - Drag progress bar to seek
