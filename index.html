@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Music Player</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+    <div id="music-player-container">
+        <div class="player-header">
+            <h2>Premium Music Player</h2>
+        </div>
+
+        <div id="player">
+            <div class="song-info">
+                <h3 id="song-title">Song Title</h3>
+                <h4 id="song-artist">Artist Name</h4>
+            </div>
+
+            <div class="player-controls">
+                <button id="prev" class="control-btn">⏪</button>
+                <button id="play-pause" class="control-btn">▶</button>
+                <button id="next" class="control-btn">⏩</button>
+            </div>
+            <input type="file" id="upload" accept="audio/*" class="upload-btn" />
+            
+            <div class="progress-container">
+                <input type="range" id="progress-bar" class="progress-bar" value="0" max="100" step="1" />
+            </div>
+
+            <div class="volume-container">
+                <label for="volume">Volume</label>
+                <input type="range" id="volume" class="volume-bar" value="100" max="100" step="1" />
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
